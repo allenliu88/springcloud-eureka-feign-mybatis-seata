@@ -17,10 +17,10 @@
 - 服务间调用：feign
 - 持久层：mybatis
 - 数据库：mysql 5.7.20
-- Springboot:2.1.7.RELEASE
-- Springcloud:Greenwich.SR2
-- jdk:1.8
-- seata:0.8
+- Springboot：2.1.7.RELEASE
+- Springcloud：Greenwich.SR2
+- jdk：1.8
+- seata：1.7.0
 
 使用不同组件，配置情况不同，可参考其他sample。
 
@@ -489,5 +489,3 @@ registry {
 ```
 
 注意上述配置和client的配置要一致，2台和多台情况相同。
-
-0.9及之前版本，多tc时，tc会误报异常，此问题0.9之后已经修复，之后的版本应该不会出现此问题。
