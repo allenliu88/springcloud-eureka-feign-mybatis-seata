@@ -1,0 +1,9 @@
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/service/OrderServiceImpl.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/OrderServerApplication.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/controller/OrderController.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/dao/OrderDao.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/DataSourceConfiguration.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/feign/StockApi.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/service/OrderService.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/feign/AccountApi.java
+/Users/allen/Customize/Share/Git/00-opensource/8-blog/seata-quickstart/springcloud-eureka-feign-mybatis-seata/order-server/src/main/java/io/seata/sample/entity/Order.java

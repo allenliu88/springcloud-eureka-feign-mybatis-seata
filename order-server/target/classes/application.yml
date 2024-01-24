@@ -1,0 +1,42 @@
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://172.23.17.116:8000/eureka/
+feign:
+  hystrix:
+    enabled: false
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 60000
+        loggerLevel: full
+logging:
+  level:
+    io:
+      seata: info
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: io.seata.sample.entity
+server:
+  port: 8180
+spring:
+  application:
+    name: order-server
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: demo_tx_group
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: hzero
+    url: jdbc:mysql://172.23.17.116:3306/biz
+    username: hzero
+
+account:
+  url: http://127.0.0.1:8181/
+stock:
+  url: http://127.0.0.1:8182/
